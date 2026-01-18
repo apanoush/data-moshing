@@ -1,0 +1,11 @@
+paths:
+  input_folder: "data"
+  temp_original_vid_path: "results/temp_original_vid.avi"
+  temp_moshed_vid_path: "results/temp_moshed_vid.avi"
+  output_video_path: "results/moshed_concatenated_video.mp4"
+settings:
+  # treated as start and stop seconds for the moshing
+  manual_moshing_intervals: [[1,2], [5,6], [15,19], [39,42], [106,121]]
+  # "strength" of the moshing
+  repeat_p_frames: 2
+
